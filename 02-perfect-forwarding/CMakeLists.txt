@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+add_compile_options(-std=c++14)
+project (perfect-forward)
+add_executable(forward-reference forward-reference.cpp)
+add_executable(reference-collapse reference-collapse.cpp)
+add_executable(perfect-forward perfect-forward.cpp)
